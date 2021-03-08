@@ -3,6 +3,11 @@ body {
   margin-left:180px;
   background:light-grey;
   margin: 0;
+  background-image:"pictures/cool.jpg";
+}
+body  {
+  background-image: url("paper.gif");
+  background-color: #cccccc;
 }
 
 .sidenav {
@@ -65,6 +70,7 @@ body {
 }
 .main {
 	margin-top:60px;
+
 }
 .title {
 	margin-top:100px;
