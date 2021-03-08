@@ -1,5 +1,6 @@
 body {
   font-family: 'Lato', sans-serif;
+  background:light-grey;
 }
 
 .overlay {
@@ -15,6 +16,13 @@ body {
   transition: 0.5s;
 }
 
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
 .sidenav {
   position: relative;
   top: 25%;
@@ -66,9 +74,16 @@ body {
 }
 
 .title {
+	margin-top:70px;
+	text-align:center;
+	font-size:60px;
+	
+	
+}
+.main {
 	margin-top:100px;
 	text-align:center;
-	font-size:50px;
+	font-size:40px;
 	
 	
 }

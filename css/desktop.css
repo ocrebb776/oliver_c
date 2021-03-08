@@ -1,6 +1,8 @@
 body {
   font-family: "Lato", sans-serif;
   margin-left:180px;
+  background:light-grey;
+  margin: 0;
 }
 
 .sidenav {
@@ -48,7 +50,7 @@ body {
   left: 0;
   top: 0;
   width: 100%;
-  background-color: blue;
+  background-color:grey;
   color: white;
   text-align: center;
 }
