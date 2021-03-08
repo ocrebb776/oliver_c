@@ -134,3 +134,6 @@ body {
   display: table;
   clear: both;
 }
+.cool{
+	background-image:src"pictures/cool.jpg";
+}
