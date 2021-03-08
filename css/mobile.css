@@ -80,11 +80,20 @@ body {
 	
 	
 }
+
 .main {
-	margin-top:100px;
-	text-align:center;
-	font-size:40px;
-	
-	
+	margin-top:60px;
+	background:#99ccff;
+	padding:60px;
+	font-size: 28px; /* Increased text to enable scrolling */
+	padding: 0px 10px;
+
 }
-/
+.mainr {
+	margin-top:60px;
+	background:#ffcc66;
+	padding:60px;
+	font-size: 28px; /* Increased text to enable scrolling */
+	padding: 0px 10px;
+
+}

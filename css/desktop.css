@@ -62,11 +62,26 @@ body {
   color: white;
   text-align: center;
 }
+
 .main {
 	margin-top:60px;
-	background-color:light-blue;
+	background:#99ccff;
+	padding:60px;
+	margin-left: 160px; /* Same as the width of the sidenav */
+	font-size: 28px; /* Increased text to enable scrolling */
+	padding: 0px 10px;
 
 }
+.mainr {
+	margin-top:60px;
+	background:#ffcc66;
+	padding:60px;
+	margin-left: 160px; /* Same as the width of the sidenav */
+	font-size: 28px; /* Increased text to enable scrolling */
+	padding: 0px 10px;
+
+}
+
 .title {
 	margin-top:100px;
 	text-align:center;
