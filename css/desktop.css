@@ -64,3 +64,9 @@ body {
 .main {
 	margin-top:60px;
 }
+.title {
+	margin-top:100px;
+	text-align:center;
+	font-size:1px;
+	color:white;
+}
