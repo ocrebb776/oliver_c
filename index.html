@@ -4,18 +4,46 @@
   <script src="javas.js"></script>
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" media="screen and (min-width:1081px)" href="desktop.css">
-<link rel="stylesheet" type="text/css" media="screen and (max-width:1080px)" href="mobile.css">
+<link rel="stylesheet" type="text/css" media="screen and (min-width:1081px)" href="css/desktop.css">
+<link rel="stylesheet" type="text/css" media="screen and (max-width:1080px)" href="css/mobile.css">
 <meta name="HandheldFriendly" content="true"
-<title>stuff </title>
+<title> </title>
+<style>
+
+
+</style>
 </head>
 <body>
-<div class="sidenav">
-  <a href="#about">About</a>
-  <a href="#services">Services</a>
-  <a href="#clients">Clients</a>
-  <a href="#contact">Contact</a>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="sidenav">
+    <a href="#">home</a>
+    <a href="#">about</a>
+    <a href="#">rescources</a>
+    <a href="#">blog and Contact</a>
+  </div>
 </div>
 
+<div class="footer">
+  <p><span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span></p>
+</div>
+<script>
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
+</script>
+<div class="foote">
+  <p><h2>homepage</h2></p>
+</div>
+<div class="main">
+</div>
 </body>
+
+</html>
+</html>
 </html>
