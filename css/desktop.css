@@ -72,6 +72,14 @@ body {
 	padding: 0px 10px;
 
 }
+.maint {
+	margin-top:60px;
+	padding:60px;
+	font-size: 28px; /* Increased text to enable scrolling */
+	padding: 0px 10px;
+	margin-left: 170px;
+
+}
 .mainr {
 	margin-top:48px;
 	background:#ffcc66;
@@ -86,4 +94,42 @@ body {
 	text-align:center;
 	font-size:1px;
 	color:white;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: right;
+  width: 50%;
+  padding: 10px;
+  height: 1000px; /* Should be removed. Only for demonstration */
+}
+.colum {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 1000px; /* Should be removed. Only for demonstration */
+}
+  .columni {
+  float: right;
+  width: 25%;
+  padding: 10px;
+  height: 1000px; 
+  margin-left: 170px;
+  /* Should be removed. Only for demonstration */
+}
+  .columne {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 849px;
+  }
+  /* Should be removed. Only for demonstratio
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
