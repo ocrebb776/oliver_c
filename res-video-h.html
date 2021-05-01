@@ -8,7 +8,7 @@
 <link rel="stylesheet" type="text/css" media="screen and (max-width:1080px)" href="css/mobile.css">
 <meta name="HandheldFriendly" content="true"
 <title> d</title>
-<script src="javascript/myScript.js"></script>
+<script src="javascript/main.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 .btn {
@@ -47,6 +47,7 @@
   overflow: hidden;
   font-size:15px;
 }
+
 </style>
 </head>
 <body>
@@ -72,6 +73,13 @@ function openNav() {
 function closeNav() {
   document.getElementById("myNav").style.height = "0%";
 }
+function myFunction() {
+  document.getElementById("demo").innerHTML = "<iframe src="video/me.mp4" height="500px" width="100%"></iframe>";
+}
+var x,z, b;  // Statement 1
+x = 100; 
+b = 1.7777777777;       // Statement 2
+z = x/ 1.77777777777777777777;    // Statement 4
 
 </script>
 <div class="foote">
@@ -83,15 +91,11 @@ function closeNav() {
 
 <div class="main">‏ <h2>plays</h2>
 
-<button class="accordion">video examaple</button>
-
+<button class="accordion" onclick="videochage()">video examaple</button>
 
 <iframe src="video/me.mp4" height="500px" width="100%"></iframe>
 
 
-<script>
-
-</script>
  ‏ ‏ ‏ ‏ ‏ <br><br><br><br>
 
   </div>

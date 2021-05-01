@@ -12,4 +12,9 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
-</scri
+
+
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+0o
