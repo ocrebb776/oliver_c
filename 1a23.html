@@ -22,6 +22,15 @@
 .btn:hover {
   background-color: RoyalBlue;
 }
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
 
 </style>
 </head>
@@ -36,6 +45,7 @@
     <a href="#">blog and Contact</a>
   </div>
 </div>
+  </div>
 
 <div class="footer">
   <p><span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; resources</span></p>
@@ -57,19 +67,27 @@ function closeNav() {
 <center> ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏  ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏</center></div><br>  
 
 <div class="main">‏ ‏  ‏ ‏ ‏ ‏ ‏ <br><header><b><center>list of items </b></center></header><br><br><br><center>
-<a href="res-shakspear.html"><button class="btn"><i class="fa fa-folder"></i> shakespeare</button></a>
-<a href="res-video-h.html"><button class="btn"><i class="fa-video-camera"></i> video</button></a>
-<a href="res-wallpapers-h.html"><button class="btn"><i class="fa fa-folder"></i> wallpaers</button></a>warning do not visit on data(over 100mb of images)
-  <a href="1a23.html"><button class="btn"><i class="fa fa-folder"></i> Folder</button></a> <br><br>
+  <script>
+function validateForm() {
+  var x = document.forms["myForm"]["fname"].value;
+  if (x == "e") {
+if (window.confirm('If you click "ok" you would be redirected . Cancel will load this website ')) 
+{
+window.location.href='index.html';
+};
+    return false;
+  }
+}
+</script>
+</head>
+<body>
+
+<form name="myForm" onsubmit="return validateForm()" method="post">
+ password <br><br> <input type="text" name="fname">
+  <input type="submit" value="Submit" class="btn">
+</form>
 </div></center>
-<div class="row">
-  <div class="column" style="background-color:light-grey;">
-  </div>
-  <div class="columni" style="background-color:white;">
-<br> this image 
-looks cool <br>
-  </div>
-</div>
-</div>
+
+
 </body>
 </html>                 
