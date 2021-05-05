@@ -72,6 +72,15 @@ body {
 	padding: 0px 10px;
 
 }
+.maine {
+	margin-top:60px;
+	background:#99ccff;
+	padding:60px;
+	margin-left: 160px; /* Same as the width of the sidenav */
+	font-size: 20px; /* Increased text to enable scrolling */
+	padding: 0px 10px;
+
+}
 .maint {
 	margin-top:60px;
 	padding:60px;
@@ -136,4 +145,24 @@ body {
 }
 .cool{
 	background-image:src"pictures/cool.jpg";
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+
+}
+.fa:hover {
+    opacity: 0.7;
 }
