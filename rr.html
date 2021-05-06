@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script src="javas.js"></script>
+  <script src="javascript/main.js"></script>
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" media="screen and (min-width:1081px)" href="css/desktop.css">
@@ -31,7 +31,18 @@ input[type=text], select {
   border-radius: 4px;
   box-sizing: border-box;
 }
-
+.button40 {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 30px 10%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+background-color: #008CBA;} /* Blue */
 </style>
 </head>
 <body>
@@ -51,13 +62,6 @@ input[type=text], select {
   <p><span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; resources</span></p>
 </div>
 <script>
-function openNav() {
-  document.getElementById("myNav").style.height = "100%";
-}
-
-function closeNav() {
-  document.getElementById("myNav").style.height = "0%";
-}
 </script>
 <div class="foote">
   <p><h2>resources</h2></p>
@@ -67,9 +71,28 @@ function closeNav() {
 <center> ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏  ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏</center></div><br>  
 
 <div class="main">‏ ‏  ‏ ‏ ‏ ‏ ‏ <br><header><b><center>list of items </b></center></header><br><br><br><center>
-  <img src="pic/e.png">
+  <img src="pic/e.png"><br><form name="pof" onsubmit="return validateForm()" method="post">
+ <input type="text" name="num"placeholder="number"> 
+ <input type="text" name="per"placeholder="percentage">
+  <input type="submit" value="Submit" class="btn">
+</form>
+
+<div class="button40"><p id="demo"></p></div>
 </div></center>
 
+<script>
+function validateForm() {
+  var num = document.forms["pof"]["num"].value;
+  var per = document.forms["pof"]["per"].value;
+  var d = 100;
+  var pd = (per/d);
+  var ans = (num*pd);
+  document.getElementById("demo").innerHTML = ans;
+    return false;
+	
+  }
 
+
+</script>
 </body>
 </html>                 
