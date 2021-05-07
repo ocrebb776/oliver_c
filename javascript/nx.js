@@ -6,6 +6,7 @@ function aa() {
 	document.getElementById('aa').src='pic/x.png';
 	turn = ("o")
 	data[0] = "x";
+	alert(data)
 	}
 	else{
 	document.getElementById('aa').src='pic/o.png';
@@ -22,7 +23,7 @@ function ab() {
 	else{
 	document.getElementById('ab').src='pic/o.png';
 			turn = ("x")}
-			data[2] = "o";
+			data[1] = "o";
 }
 function ac() {
 	if(turn == x){
@@ -107,4 +108,5 @@ function cc() {
 			turn = ("x")}
 			data[8] = "o";
 }
-if (data[0]+data[1]+data[2} == 
+//if (data[0]+data[1]+data[2} == xxx){alert("team X won")}
+//if (data[3]+data[4]+data[5} == xxx){alert("team X won")}
