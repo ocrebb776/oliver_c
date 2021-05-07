@@ -6,16 +6,19 @@ function aa() {
 	document.getElementById('aa').src='pic/x.png';
 	turn = ("o")
 	data[0] = "x";
-		this.check();
+
 	}
 	else{
 	document.getElementById('aa').src='pic/o.png';
 		turn = ("x")
 		data[0] = "o";
+
 	}
+
+		this.check();
 }
 function ab() {
-	if(turn === x){
+	if(turn == x){
 	document.getElementById('ab').src='pic/x.png';
 	turn = ("o")
 	data[1] = "x";
@@ -24,6 +27,7 @@ function ab() {
 	document.getElementById('ab').src='pic/o.png';
 			turn = ("x")
 			data[1] = "o";}
+		this.check();
 }
 function ac() {
 	if(turn == x){
@@ -35,6 +39,7 @@ function ac() {
 	document.getElementById('ac').src='pic/o.png';
 			turn = ("x")
 			data[2] = "o";}
+		this.check();
 }
 
 //row 2
@@ -49,6 +54,7 @@ function ba() {
 		turn = ("x")
 		data[3] = "o";
 	}
+			this.check();
 }
 function bb() {
 	if(turn == x){
@@ -60,6 +66,7 @@ function bb() {
 	document.getElementById('bb').src='pic/o.png';
 			turn = ("x")
 			data[4] = "o";}
+		this.check();
 }
 function bc() {
 	if(turn == x){
@@ -71,6 +78,7 @@ function bc() {
 	document.getElementById('bc').src='pic/o.png';
 			turn = ("x")
 			data[5] = "o";}
+		this.check();
 }
 
 //row 3
@@ -85,6 +93,7 @@ function ca() {
 		turn = ("x")
 		data[6] = "o";
 	}
+		this.check();
 }
 function cb() {
 	if(turn == x){
@@ -96,6 +105,7 @@ function cb() {
 	document.getElementById('cb').src='pic/o.png';
 			turn = ("x")
 			data[7] = "o";}
+		this.check();
 }
 function cc() {
 	if(turn == x){
@@ -112,34 +122,47 @@ function cc() {
 }
 
 function check() {
-	if (data[0]+data[1]+data[2] == xxx){
-		alert("team X won")}
-	if (data[3]+data[4]+data[5] == xxx){
-		alert("team X won")}
-	if (data[6]+data[7]+data[8] == xxx){
-		alert("team X won")}
-	if (data[0]+data[4]+data[8] == xxx){
-		alert("team X won")}
-	if (data[2]+data[4]+data[6]== xxx){
-		alert("team X won")}
-	if (data[0]+data[3]+data[6] == xxx){
-		alert("team X won")}
-	if (data[2]+data[5]+data[8]== xxx){
-		alert("team X won")}
+	if(data[0]+data[1]+data[2] == ("xxx")){
+		alert("team X won");
+		}
+	if (data[3]+data[4]+data[5] == ("xxx")){
+		alert("team X won");
+		}
+	if (data[6]+data[7]+data[8] == ("xxx")){
+		alert("team X won");
+		}
+	if (data[0]+data[4]+data[8] == ("xxx")){
+		alert("team X won");
+		}
+	if (data[2]+data[4]+data[6]== ("xxx")){
+		alert("team X won");
+		}
+	if (data[0]+data[3]+data[6] == ("xxx")){
+		alert("team X won");
+		}
+	if (data[2]+data[5]+data[8]== ("xxx")){
+		alert("team X won");
+		}
 
-	if (data[0]+data[1]+data[2] == ooo){
-			alert("team 0 won")}
-	if (data[3]+data[4]+data[5] == ooo){
-		alert("team 0 won")}
-	if (data[6]+data[7]+data[8]== ooo){
-		alert("team 0 won")}
-	if (data[0]+data[4]+data[8] == ooo){
-		alert("team 0 won")}
-	if (data[2]+data[4]+data[6] == ooo){
-		alert("team 0 won")}
-	if (data[0]+data[3]+data[6] == ooo){
-		alert("team 0 won")}
-	if (data[2]+data[5]+data[8] == ooo){
-		alert("team 0 won")}
-	alert("hi")
+	if (data[0]+data[1]+data[2] == ("ooo")){
+		alert("team 0 won");
+		}
+	if (data[3]+data[4]+data[5] == ("ooo")){
+		alert("team 0 won");
+		}
+	if (data[6]+data[7]+data[8]== ("ooo")){
+		alert("team 0 won");
+		}
+	if (data[0]+data[4]+data[8] == ("ooo")){
+		alert("team 0 won");
+		}
+	if (data[2]+data[4]+data[6] == ("ooo")){
+		alert("team 0 won");
+		}
+	if (data[0]+data[3]+data[6] == ("ooo")){
+		alert("team 0 won");
+		}
+	if (data[2]+data[5]+data[8] == ("ooo")){
+		alert("team 0 won");
+		}
 }
