@@ -123,46 +123,47 @@ function cc() {
 
 function check() {
 	if(data[0]+data[1]+data[2] == ("xxx")){
-		alert("team X won");
+		alert("team X win!") ? "" : location.reload();
 		}
 	if (data[3]+data[4]+data[5] == ("xxx")){
-		alert("team X won");
+		alert("team X win!") ? "" : location.reload();
 		}
 	if (data[6]+data[7]+data[8] == ("xxx")){
-		alert("team X won");
+		alert("team X win!") ? "" : location.reload();
 		}
 	if (data[0]+data[4]+data[8] == ("xxx")){
-		alert("team X won");
+		alert("team X win!") ? "" : location.reload();
 		}
 	if (data[2]+data[4]+data[6]== ("xxx")){
-		alert("team X won");
+		alert("team X win!") ? "" : location.reload();
 		}
 	if (data[0]+data[3]+data[6] == ("xxx")){
-		alert("team X won");
+		alert("team X win!") ? "" : location.reload();
 		}
 	if (data[2]+data[5]+data[8]== ("xxx")){
-		alert("team X won");
+		alert("team X win!") ? "" : location.reload();
 		}
 
 	if (data[0]+data[1]+data[2] == ("ooo")){
-		alert("team 0 won");
+		alert("team O win!") ? "" : location.reload();
 		}
 	if (data[3]+data[4]+data[5] == ("ooo")){
-		alert("team 0 won");
+		alert("team O win!") ? "" : location.reload();
 		}
 	if (data[6]+data[7]+data[8]== ("ooo")){
-		alert("team 0 won");
+		alert("team O win!") ? "" : location.reload();
 		}
 	if (data[0]+data[4]+data[8] == ("ooo")){
-		alert("team 0 won");
+		alert("team O win!") ? "" : location.reload();
 		}
 	if (data[2]+data[4]+data[6] == ("ooo")){
-		alert("team 0 won");
+		alert("team O win!") ? "" : location.reload();
 		}
 	if (data[0]+data[3]+data[6] == ("ooo")){
-		alert("team 0 won");
+		alert("team O win!") ? "" : location.reload();
 		}
 	if (data[2]+data[5]+data[8] == ("ooo")){
-		alert("team 0 won");
+		alert("team O win!") ? "" : location.reload();
 		}
 }
+
