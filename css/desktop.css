@@ -97,7 +97,14 @@ body {
 	padding: 0px 10px;
 
 }
+.mainre {
+	margin-top:48px;
+	background:#ff0000;
+	padding:60px;
+	font-size: 28px; /* Increased text to enable scrolling */
+	padding: 0px 10px;
 
+}
 .title {
 	margin-top:100px;
 	text-align:center;
