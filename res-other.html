@@ -20,9 +20,51 @@
 }
 
 .btn:hover {
-  background-color: RoyalBlue;
+  background-color: grey;
+}
+.dropbtnw {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  cursor: pointer;
+  border: none;
 }
 
+.dropdownw {
+  position: relative;
+  display: inline-block;
+}
+body  {
+  background-image: url("img_tree.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.dropdown-contentw {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-contentw a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-contentw a:hover {background-color: #f1f1f1}
+
+.dropdownw:hover .dropdown-contentw {
+  display: block;
+}
+
+.dropdownw:hover .dropbtn {
+  background-color: #3e8e41;
+}
 </style>
 </head>
 <body>
@@ -48,21 +90,27 @@
 <div class="mainr"><header><b>‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ <br>‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ <br><center><h1>resources</h1></center></b></header><br> 
 <center> ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏  ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏</center></div><br>  
 
-<div class="main">‏ ‏  ‏ ‏ ‏ ‏ ‏ <br><header><b><center>list of items </b></center></header><br><br><br><center>
-<a href="res-shakspear.html"><button class="btn"></i> shakespeare</button></a>
-<a href="res-video-h.html"><button class="btn"></i> video</button></a>
-<a href="res-wallpapers-h.html"><button class="btn"></i> wallpaers</button></a>
-  <a href="rr.html"><button class="btn"></i> Folder</button></a>
-  <a href="1a23.html"><button class="btn"></i>games</button></a>
-  <a href="res-3dprinting.html"><button class="btn"></i> 3d printing </button></a>
-  <a href="res-other.html"><button class="btn"></i> other </button></a>  <br><br>
-</div></center>
-<div class="row">
-  <div class="column" style="background-color:light-grey;">
+<div class="main">‏ ‏  ‏ ‏ ‏ ‏ ‏ <br><header><b><center>go to links </b></center></header><br><br><br>
+<div class="dropdownw">
+<button class="dropbtnw">3d modeling </button>
+<div class="dropdown-contentw">
+<a href="https://drive.google.com/drive/folders/1SAnLplTmIripxC40eepmM07eILvmAkN3?usp=sharing">blender</a>
+<a href="#">blank</a>
+<a href="#">blank</a>
+</div>
+</div><div class="dropdownw">
+  <button class="dropbtnw">reports on </button>
+  <div class="dropdown-contentw">
+  <a href="#">blank </a>
+  <a href="#">blank</a>
+  <a href="#">blank</a>
   </div>
-  <div class="columni" style="background-color:white;">
-<br> this image 
-looks cool <br>
+</div>
+‏ ‏ ‏ ‏<br>‏ ‏ ‏ ‏<br>
+</div><br><br>
+</div>
+<div class="row">
+
   </div>
 </div>
 </div>
