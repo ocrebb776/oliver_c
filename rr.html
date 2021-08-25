@@ -71,9 +71,9 @@ background-color: #66ff66;} /* Blue */
 <center> ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏  ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏ ‏</center></div><br>  
 
 <div class="main">‏ ‏  ‏ ‏ ‏ ‏ ‏ <br><header><b><center>list of items </b></center></header><br><br><br><center>
-  <img src="pic/e.png"><br><form name="pof" onsubmit="return validateForm()" method="post">
- <input type="text" name="num"placeholder="number"> 
- <input type="text" name="per"placeholder="percentage">
+  <img src="pic/e.png"><br><form name="death" onsubmit="return validateForm()" method="post">
+ <br><B>person 1</b><br><input type="text" name="one"placeholder="person 1 "> <br><B>person2</b><br>
+ <input type="text" name="two"placeholder="person 2">
   <input type="submit" value="Submit" class="btn">
 </form>
 
@@ -82,12 +82,10 @@ background-color: #66ff66;} /* Blue */
 
 <script>
 function validateForm() {
-  var num = document.forms["pof"]["num"].value;
-  var per = document.forms["pof"]["per"].value;
-  var d = 100;
-  var pd = (per/d);
-  var ans = (num*pd);
-  document.getElementById("demo").innerHTML = ans;
+  var per 1 = document.forms["death"]["one"].value;
+  var per 2 = document.forms["death"]["two"].value;
+  var love = Math.floor(Math.random() * 100) + 1;
+  document.getElementById("demo").innerHTML = l;
     return false;
 	
   }
